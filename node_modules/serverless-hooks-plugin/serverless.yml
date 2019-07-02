@@ -1,0 +1,21 @@
+service: serverless-hooks-plugin # NOTE: update this with your service name
+
+plugins:
+  - serverless-hooks-plugin
+
+custom:
+  hooks:
+    before:command:lifecycleEvent:
+      - echo "Before a command called 'command': an example!"
+    after:command:lifecycleEvent:
+      - echo "After a command called 'command': another example!"
+
+# Both provider and functions are required
+
+# provider:
+#   name: aws
+#   runtime: nodejs6.10
+#
+# functions:
+#   hello:
+#     handler: handler.hello
