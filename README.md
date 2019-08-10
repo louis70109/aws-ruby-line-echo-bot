@@ -6,6 +6,10 @@ I use my first language(ruby) to build this on serverless,
 
 so you can use this project in others case.
 
+# Bouns
+
+This project is merged in [serverless/example](https://github.com/serverless/examples/tree/master/aws-ruby-line-bot)
+
 # Bebore you start
 
 1. Line developer account
