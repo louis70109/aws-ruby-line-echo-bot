@@ -12,8 +12,8 @@ This project is merged in [serverless/example](https://github.com/serverless/exa
 
 # Bebore you start
 
-1. Line developer account
-2. [Line Message API](https://developers.line.biz/en/docs/messaging-api/getting-started/)
+1. LINE developer account
+2. [LINE Message API](https://developers.line.biz/en/docs/messaging-api/getting-started/)
 
 # Quick Start
 
@@ -37,7 +37,7 @@ $ serverless install --url https://github.com/louis70109/aws-ruby-line-echo-bot 
 $ cd <YOUR_FILE_NAME>/
 ```
 
-4. Insert you line bot secret & key
+4. Insert you LINE bot secret & key
 
 ```python=
 config.channel_secret = "YOUR_LINE_CHANNEL_SECRET"
